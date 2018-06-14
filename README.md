@@ -20,12 +20,13 @@ DATABASE_URL=mysql://meuusuario:minhasenha@127.0.0.1:3306/meubanco
 
 Rode os comandos:
 
-php bin/console doctrine:database:create
-php bin/console doctrine:migrations:migrate
+$ php bin/console doctrine:database:create
+
+$ php bin/console doctrine:migrations:migrate
 
 E depois para rodar a aplicação
 
-php bin/console server:run
+$ php bin/console server:run
 
 E assim ela vai estar acessivel em
 
